@@ -1,0 +1,26 @@
+{
+  "name": "inject-ssss-imports-loader",
+  "version": "1.0.0",
+  "description": "Inject imports to scss files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vladosby/inject-ssss-imports-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "import",
+    "sass",
+    "scss"
+  ],
+  "author": "vladosby",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vladosby/inject-ssss-imports-loader/issues"
+  },
+  "homepage": "https://github.com/vladosby/inject-ssss-imports-loader#readme"
+}
