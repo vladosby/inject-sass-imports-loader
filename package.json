@@ -1,6 +1,6 @@
 {
   "name": "inject-sass-imports-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Inject imports to scss files",
   "main": "index.js",
   "scripts": {
