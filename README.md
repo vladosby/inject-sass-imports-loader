@@ -15,7 +15,7 @@ For example:
 
 ```javascript
     alias: {
-        styles: __dirname + '/src/app/styles'
+        styles: __dirname + '/src/app/styles/'
     }
 ```
 
