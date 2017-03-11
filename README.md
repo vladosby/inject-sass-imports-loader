@@ -48,6 +48,7 @@ example:
 
 <h2 align="center">Result</h2>
 Init file:
+
 ```scss
 body {
     background: red;
@@ -55,7 +56,8 @@ body {
  ```
 
  Result file:
- ```scss
+
+```scss
  @import '~styles/styles';
  @import '~styles2/style2';
 
