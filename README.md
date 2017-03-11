@@ -41,7 +41,28 @@ Adds a specified imports in every scss file
 
 warning: Must be specified
 
-example: ```javascript imports: ['~styles/styles', '~styles2/style2']  ```
+example:
+```javascript
+ imports: ['~styles/styles', '~styles2/style2']
+ ```
+
+<h2 align="center">Result</h2>
+Init file:
+```scss
+body {
+    background: red;
+}
+ ```
+
+ Result file:
+ ```scss
+ @import '~styles/styles';
+ @import '~styles2/style2';
+
+ body {
+     background: red;
+ }
+  ```
 
 [npm]: https://img.shields.io/npm/v/inject-sass-imports-loader.svg
 [npm-url]: https://npmjs.com/package/inject-sass-imports-loader

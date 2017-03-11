@@ -2,7 +2,7 @@
 
 const loaderUtils = require('loader-utils');
 
-module.exports = function (source, map) {
+module.exports = function (source) {
     if (this.cacheable) {
         this.cacheable();
     }
