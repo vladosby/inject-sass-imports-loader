@@ -11,12 +11,14 @@ npm install inject-sass-imports-loader --save-dev
 
 <h2 align="center">Configuration</h2>
 Beforehand, need to configure alias to folder where the files, that need to include, are located.
-For example: 
+For example:
+
 ```javascript
     alias: {
         styles: __dirname + '/src/app/styles'
     }
 ```
+
 Add configuration object to `module.loaders` in the end of loaders for scss.
 
 ```javascript
