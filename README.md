@@ -48,7 +48,6 @@ example:
 
 <h2 align="center">Result</h2>
 Init file:
-
 ```scss
 body {
     background: red;
