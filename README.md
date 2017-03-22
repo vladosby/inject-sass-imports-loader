@@ -1,7 +1,7 @@
 [![npm][npm]][npm-url]
 [![deps][deps]][deps-url]
 
-# Inject common scss import in files for Webpack
+# Inject common scss imports in files for Webpack
 
 <h2 align="center">Install</h2>
 
@@ -46,8 +46,9 @@ example:
  imports: ['~styles/styles', '~styles2/style2']
  ```
 
-<h2 align="center">Result</h2>
+<h2 align="center">Result of work</h2>
 Init file:
+
 ```scss
 body {
     background: red;

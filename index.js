@@ -1,20 +1,15 @@
 "use strict";
 
-const loaderUtils = require('loader-utils');
+var loaderUtils = require('loader-utils');
 
 module.exports = function (source) {
-    if (this.cacheable) {
-        this.cacheable();
-    }
+    var query = loaderUtils.getOptions(this);
+    var requiredImports = query.imports;
 
-    const query = loaderUtils.getOptions(this);
-    const requiredImports = query.imports;
-
-    let imports = '';
-    for (let i = 0; i < requiredImports.length; i++) {
+    var imports = '';
+    for (var i = 0; i < requiredImports.length; i++) {
         imports += `@import '${requiredImports[i]}';\n`;
     }
     
     return source.includes('@import') ? `${imports}${source}` : `${imports}\n${source}`;
-
 };
